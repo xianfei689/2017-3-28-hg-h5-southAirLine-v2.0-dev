@@ -1,0 +1,435 @@
+// mui reset
+.mui-checkbox input[type=checkbox]:checked:before {
+    content: '\e441';
+}
+
+.mui-input-group .mui-input-row:after {
+    left: 0;
+    height: 0;
+    background-color: #eee;
+}
+
+.mui-input-group .mui-input-row {
+    height: 104px;
+    border-bottom: 5px solid #eee;
+}
+
+.mui-checkbox input[type=checkbox],
+.mui-radio input[type=radio] {
+    top: 41px;
+}
+
+.mui-checkbox.mui-left input[type=checkbox],
+.mui-radio.mui-left input[type=radio] {
+    left: 15px;
+}
+
+.mui-numbox {
+    position: absolute;
+    bottom: 15px;
+    left: 124px;
+    width: 80px;
+    height: 21px;
+    margin: 0;
+    border: solid 1px #2f8bcd;
+}
+
+.mui-numbox .mui-input-numbox,
+.mui-numbox .mui-numbox-input {
+    font-size: 14px;
+    position: relative;
+    right: 14px;
+    width: 30px !important;
+    border-right: solid 1px #2f8bcd !important;
+    border-left: solid 1px #2f8bcd !important;
+}
+
+.mui-numbox .mui-btn-numbox-minus,
+.mui-numbox .mui-numbox-btn-minus {
+    width: 24px;
+}
+
+.mui-numbox .mui-btn-numbox-plus,
+.mui-numbox .mui-numbox-btn-plus {
+    width: 24px;
+}
+
+#checkAll {
+    top: 8px;
+}
+
+body {
+    background-color: #eee;
+}
+
+// mui reset
+
+/**
+ * [shoppingcar  main css ]
+ * @AuthorHTL                          {{Mundo                Tomo          Zhou}}
+ * @Email                              {{zhou0425@gmail.com}}
+ * @DateTime  2017-04-01T09:22:30+0800
+ */
+
+.navi-bottom2 {
+    box-shadow: none;
+}
+
+.goods-content {
+    margin-top: 5px;
+    margin-bottom: 53px;
+    .goodsImg {
+        width: 74px;
+        height: 74px;
+        margin-top: 15px;
+        margin-left: 50px;
+    }
+    .goods-desc {
+        font-size: 12px;
+        line-height: 1.25em;
+        position: absolute;
+        top: 15px;
+        left: 133px;
+        width: 170px;
+        color: #454545;
+    }
+    .goods-length {
+        font-size: 12px;
+        position: absolute;
+        top: 15px;
+        right: 12px;
+    }
+    .goods-deal {
+        position: absolute;
+        right: 12px;
+        bottom: 16px;
+    }
+    .dealImg-off {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: url('../images/shoppingcar/star.png') no-repeat left top;
+        background-size: 20px 20px;
+    }
+    .dealImg-on {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: url('../images/shoppingcar/star-on.png') no-repeat left top;
+        background-size: 20px 20px;
+    }
+    .dealImg2 {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: url('../images/shoppingcar/del.png') no-repeat left top;
+        background-size: 20px 20px;
+    }
+    .font-red2 {
+        margin-right: 6px;
+    }
+}
+
+.navi2-bot {
+    font-size: 12px;
+    position: fixed;
+    z-index: 99;
+    bottom: 49px;
+    left: 0;
+    width: 100%;
+    height: 43px;
+    color: #454545;
+    background-color: #eee;
+    -webkit-box-shadow: 0 3px 9px 2px rgba(0, 0, 0, .12);
+    -moz-box-shadow: 0 3px 9px 2px rgba(0, 0, 0, .12);
+    box-shadow: 0 3px 9px 2px rgba(0, 0, 0, .12);
+    .mui-checkbox2 {
+        height: 43px;
+    }
+    .totalLen {
+        float: right;
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+}
+
+#navi-babel {
+    display: inline-block;
+    width: 97px;
+    margin-top: 6px;
+    padding-left: 52px;
+}
+
+#calc {
+    font-size: 15px;
+    line-height: 43px;
+    display: inline-block;
+    float: right;
+    width: 100px;
+    height: 43px;
+    text-align: center;
+    color: #fff;
+    background-color: #e60a51;
+}
+
+.approveBtn {
+    line-height: 45px;
+    display: inline-block;
+    width: 155px;
+    height: 45px;
+    text-align: center;
+    color: #fff;
+    border-radius: 21px;
+    background-color: #db0048;
+}
+
+.soldOutIcon {
+    font-size: 9px;
+    line-height: 12px;
+    position: absolute;
+    top: 41px;
+    left: 15px;
+    display: inline-block;
+    width: 26px;
+    height: 12px;
+    text-align: center;
+    color: #fff;
+    background-color: #ed6390;
+}
+
+.soldOut {
+    background-color: #eee;
+}
+
+.soldoutDesc {
+    font-size: 10px;
+    position: relative;
+    bottom: 26px;
+    left: 5px;
+    display: inline-block;
+    color: #757575;
+}
+
+.gd-cont {
+    .gdp1 {
+        font-size: 13px;
+        margin-left: 100px;
+        color: #454545;
+    }
+    .gdp2 {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 100px;
+        color: #757575;
+    }
+    .gdp3 {
+        margin-left: 100px;
+        color: #454545;
+    }
+    .gdOne {
+        position: relative;
+        height: 90px;
+        margin-bottom: 5px;
+        padding-top: 14px;
+        background-color: #fff;
+    }
+    .gdImg {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        width: 70px;
+        height: 70px;
+        border: 1px solid #d5d5d5;
+    }
+    .gdLen {
+        font-size: 15px;
+        color: #e60a51;
+    }
+}
+
+.gdiv-p {
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #4da6e6;
+}
+
+.gdiv {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    img {
+        width: 160px;
+        height: 160px;
+        border: 1px solid #d5d5d5;
+    }
+    .gdiv-one {
+        display: inline-block;
+    }
+    .gdiv-one2 {
+        display: inline-block;
+        float: right;
+    }
+    .gdiv-sp2 {
+        font-size: 13px;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        color: #999;
+    }
+    .fot-red {
+        color: #ee4e4e;
+    }
+    .gdiv-sp1 {
+        font-size: 15px;
+        display: inline-block;
+        width: 100%;
+        margin-top: 8px;
+        margin-bottom: 5px;
+        text-align: center;
+        color: #454545;
+    }
+}
+
+.topbar {
+    display: -moz-box;
+    display: -webkit-box;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #d5d5d5;
+    background-color: #fff;
+    .bar-one {
+        font-size: 13px;
+        line-height: 30px;
+        width: 50px;
+        text-align: center;
+        color: #454545;
+        -webkit-box-flex: 1;
+        -moz-box-flex: 1;
+    }
+    /* 向上的箭头 */
+    .dot-top {
+        font-size: 0;
+        line-height: 0;
+        position: relative;
+        bottom: 6px;
+        float: left;
+        border-width: 5px;
+        border-style: dashed;
+        border-color: #d5d5d5;
+        border-top-width: 0;
+        border-right-color: transparent;
+        border-bottom-style: solid;
+        border-left-color: transparent;
+    }
+    /* 向下的箭头 */
+    .dot-bottom {
+        font-size: 0;
+        line-height: 0;
+        position: relative;
+        top: 2px;
+        left: -10px;
+        float: left;
+        border-width: 5px;
+        border-style: dashed;
+        border-color: #d5d5d5;
+        border-top-style: solid;
+        border-right-color: transparent;
+        border-bottom-width: 0;
+        border-left-color: transparent;
+    }
+    .active {
+        border-style: dashed;
+        border-color: #2f8bcd;
+        border-top-style: solid;
+        border-right-color: transparent;
+        border-left-color: transparent;
+    }
+    .bar-right {
+        display: inline-block;
+    }
+}
+
+.top-div {
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.slide-right {
+    font-size: 13px;
+    position: fixed;
+    z-index: 100;
+    top: 74px;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    opacity: 0;
+    background-color: #fff;
+    // transition: opacity 2s;
+    // -moz-transition: opacity 2s;
+    // /* Firefox 4 */
+    // -webkit-transition: opacity 2s;
+    // /* Safari 和 Chrome */
+    // -o-transition: opacity 2s;
+    // /* Opera */
+    .clas-pt {
+        font-size: 15px;
+        line-height: 40px;
+        height: 40px;
+        padding-left: 15px;
+        color: #2f8bcd;
+        border-bottom: 1px solid #eee;
+    }
+    .clas-it {
+        line-height: 33px;
+        height: 33px;
+        padding-left: 25px;
+        border-bottom: 1px solid #eee;
+        color: #454545;
+    }
+    .classify-item {
+        display: none;
+    }
+    .active-show {
+        display: block;
+    }
+    .arrow {
+        float: right;
+        margin-right: 15px;
+    }
+    .active-on {
+        color: #2f8bcd;
+    }
+    .item-show {
+        display: block;
+    }
+}
+
+.slide-shade {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-transition-duration: 400ms;
+    transition-duration: 400ms;
+    opacity: 1;
+    background: rgba(0, 35, 78, .5);
+}
+
+
+/**
+ * [shoppingcar  main css ]
+ * @AuthorHTL                          {{Mundo                Tomo          Zhou}}
+ * @Email                              {{zhou0425@gmail.com}}
+ * @DateTime  2017-04-01T09:22:30+0800
+ */

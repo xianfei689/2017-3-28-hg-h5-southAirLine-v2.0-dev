@@ -1,0 +1,114 @@
+.search-div1 {
+    height: 101px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 35px;
+    width: 100%;
+    text-align: center;
+    .search-ct1 {
+        width: 100%;
+        color:#2f8bcd;
+    }
+    .input{
+      color:#8290a0;
+    }
+    .search-ct2 {
+        background-color: #FFF;
+        text-align: center;
+        display: inline-block;
+        width: 50%;
+        float: left;
+        font-size: 13px;
+        height: 30px;
+        line-height: 30px;
+        border: none;
+        radius: 0;
+        border: 1px solid #2f8bcd;
+    }
+    .search-ct3 {
+        border-top-left-radius: 0.5em;
+        border-bottom-left-radius: 0.5em;
+    }
+    .search-ct4 {
+        border-top-right-radius: 0.5em;
+        border-bottom-right-radius: 0.5em;
+    }
+    .inputTxt {
+        border: none;
+        width: 68%;
+        margin: 0;
+        padding: 0;
+        height: 30px;
+        padding-left: 10px;
+    }
+    .search-content2 {
+        display: none;
+        border-bottom: 1px solid #d6dee4;
+        border-top: 1px solid #d6dee4;
+        padding-top: 31px;
+            margin-top: 63px;
+        height: 63px;
+        text-align: center;
+        color: #08234f;
+        font-size: 16px;
+    }
+
+    .search-content3 {
+        border-bottom: 1px solid #d6dee4;
+         border-top: 1px solid #d6dee4;
+        padding-top: 31px;
+        height: 63px;
+        text-align: left;
+        color: #08234f;
+        font-size: 16px;
+        margin-top: 63px;
+    }
+    .active {
+        color: #fff;
+        background-color: #2f8bcd;
+    }
+    .inputLen {
+        border: none;
+        width: 46%;
+        margin: 0;
+        padding: 0;
+        height: 30px;
+    }
+    .inputLen2 {
+        border: none;
+        width: 46%;
+        margin: 0;
+        padding: 0;
+        height: 30px;
+        padding-left: 30px;
+    }
+    input::-webkit-input-placeholder {
+        font-size: 14px;
+        color: #ddd;
+    }
+    input::-moz-placeholder {
+        font-size: 14px;
+        color: #ddd;
+    }
+    .sc3-sp {
+        color: #8290a0;
+        font-size: 16px;
+    }
+    .searchBtn {
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        font-size: 17px;
+        background-color: #d1d9e1;
+        width: 155px;
+        height: 45px;
+        line-height: 45px;
+        radius: 5px;
+        -webkit-border-radius: 32px;
+        margin-top: 33px;
+    }
+}
+
+body {
+    background-color: #FFF;
+}
