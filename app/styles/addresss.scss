@@ -1,0 +1,117 @@
+.mui-checkbox.mui-left input[type=checkbox] {
+    top: 11px;
+    left: 12px;
+}
+
+.mui-input-group .mui-input-row2 {
+    height: 50px;
+    line-height: 50px;
+    color: #454545;
+    font-size: 13px;
+}
+
+.selectAddr {
+    margin-left: 47px;
+}
+
+.select-right {
+    float: right;
+    margin-right: 13px;
+    .sele-par1 {
+        margin-right: 12px;
+    }
+    img {
+        width: 18px;
+        margin-right: 10px;
+        position: relative;
+        top: 3px;
+    }
+}
+
+.add-address {
+    padding-left: 15px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 13px;
+    color: #757575;
+    background-color: #FFF;
+    img {
+        width: 22px;
+        margin-right: 15px;
+        position: relative;
+        top: 5px;
+    }
+}
+
+.personInfo {
+    padding-top: 15px;
+    height: 75px;
+    font-size: 13px;
+    color: #454545;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid #eee;
+    border-top: 5px solid #eee;
+    .sp2 {
+        float: right;
+    }
+    .sp3 {
+        margin-top: 18px;
+        display: inline-block;
+    }
+}
+
+.addresss-detail {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #FFF;
+    display: block;
+    color: #454545;
+    font-size: 14px;
+    .aade1 {
+        height: 46px;
+        line-height: 46px;
+        border-bottom: 1px solid #eee;
+    }
+    .input1 {
+        text-align: right;
+        border: none;
+        width: 60%;
+        margin: 0;
+        padding: 0;
+        float: right;
+        display: inline-block;
+        margin-top: 3px;
+        color: #09395b;
+        font-size: 14px;
+    }
+    .input1::placeholder {
+        color: #cecece;
+        font-size: 14px;
+        text-align: right;
+    }
+}
+
+.adde-addr {
+    .mui-switch {
+        display: inline-block;
+        float: right;
+        width: 47px;
+        height: 23px;
+        margin-top: 10px;
+    }
+    .mui-switch:before {
+        content: '';
+    }
+    .mui-switch.mui-active:before {
+        content: '';
+    }
+    .mui-switch .mui-switch-handle {
+        width: 20px;
+        height: 20px;
+    }
+    .mui-switch.mui-active .mui-switch-handle {
+        -webkit-transform: translate(24px, 0);
+        transform: translate(24px, 0);
+    }
+}
